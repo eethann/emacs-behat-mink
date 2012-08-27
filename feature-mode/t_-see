@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then not see
+# key: t_-see
+# --
+${1:$$(yas/choose-value '("Then" "And"))} I should not see "${2:text}"
+$0

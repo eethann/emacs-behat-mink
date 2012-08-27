@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then not match
+# key: t_-match
+# --
+${1:$$(yas/choose-value '("Then" "And"))} I should not see text matching ${2:pattern}"
+$0

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when fill
+# key: w_fill
+# --
+${1:$$(yas/choose-value '("When" "And"))} I fill in "${2:field}" with "${3:value}"
+$0

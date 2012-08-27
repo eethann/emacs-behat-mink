@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then response match
+# key: t_code
+# --
+${1:$$(yas/choose-value '("Then" "And"))} the response status code should be ${2:code}
+$0

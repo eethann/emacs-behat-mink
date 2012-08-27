@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then checked
+# key: t_checked
+# --
+${1:$$(yas/choose-value '("Then" "And"))} the "${2:checkbox}" checkbox should be checked
+$0

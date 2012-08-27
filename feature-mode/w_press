@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when press
+# key: w_press
+# --
+${1:$$(yas/choose-value '("When" "And"))} I press "${2:button}"
+$0

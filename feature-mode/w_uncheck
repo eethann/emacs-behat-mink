@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when uncheck
+# key: w_uncheck
+# --
+${1:$$(yas/choose-value '("When" "And"))} I uncheck "${2:option}"
+$0

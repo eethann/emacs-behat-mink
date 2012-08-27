@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then response not match
+# key: t_-code
+# --
+${1:$$(yas/choose-value '("Then" "And"))} the response status code should not be ${2:code}
+$0

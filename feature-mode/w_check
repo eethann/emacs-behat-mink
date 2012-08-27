@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when check
+# key: w_check
+# --
+${1:$$(yas/choose-value '("When" "And"))} I check "${2:option}"
+$0

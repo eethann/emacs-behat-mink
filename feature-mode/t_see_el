@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then see an el
+# key: t_see_el
+# --
+${1:$$(yas/choose-value '("Then" "And"))} I should see a "${2:el}" element
+$0

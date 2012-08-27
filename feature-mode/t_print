@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then print last
+# key: t_print
+# --
+${1:$$(yas/choose-value '("Then" "And"))} print last response
+$0

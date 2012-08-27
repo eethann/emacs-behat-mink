@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when forward
+# key: w_forward
+# --
+${1:$$(yas/choose-value '("When" "And"))} I move forward one page
+$0

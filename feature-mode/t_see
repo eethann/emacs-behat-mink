@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then see
+# key: t_see
+# --
+${1:$$(yas/choose-value '("Then" "And"))} I should see "${2:text}"
+$0

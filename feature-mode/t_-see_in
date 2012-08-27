@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then not see text in el
+# key: t_-see_in
+# --
+${1:$$(yas/choose-value '("Then" "And"))} I should not see "${2:text}" in the "${3:el}" element
+$0

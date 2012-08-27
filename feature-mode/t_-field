@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then field not contain
+# key: t_-field
+# --
+${1:$$(yas/choose-value '("Then" "And"))} the "${2:field}" field should not contain "${3:value}"
+$0

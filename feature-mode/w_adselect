@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when adselect
+# key: w_adselect
+# --
+${1:$$(yas/choose-value '("When" "And"))} I additionally select "${2:option}" from "${3:select}"
+$0

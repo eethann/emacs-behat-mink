@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then num elements
+# key: t_num_el
+# --
+${1:$$(yas/choose-value '("Then" "And"))} I should see ${2:num} "${1:element}" elements
+$0

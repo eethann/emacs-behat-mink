@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then not contain
+# key: t_-contain
+# --
+${1:$$(yas/choose-value '("Then" "And"))} the response should not contain "${2:text}"
+$0

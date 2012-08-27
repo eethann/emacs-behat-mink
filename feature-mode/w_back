@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when back
+# key: w_back
+# --
+${1:$$(yas/choose-value '("When" "And"))} I move backward one page
+$0

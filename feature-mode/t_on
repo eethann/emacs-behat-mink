@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then on
+# key: t_on
+# --
+${1:$$(yas/choose-value '("Then" "And"))} I should be on "${2:page}"
+$0

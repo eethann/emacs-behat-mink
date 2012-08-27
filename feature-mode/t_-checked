@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then not checked
+# key: t_-checked
+# --
+${1:$$(yas/choose-value '("Then" "And"))} the "${2:checkbox}" checkbox should not be checked
+$0

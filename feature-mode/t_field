@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then field contain
+# key: t_field
+# --
+${1:$$(yas/choose-value '("Then" "And"))} the "${2:field}" field should contain "${3:value}"
+$0

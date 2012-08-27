@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when reload
+# key: w_reload
+# --
+${1:$$(yas/choose-value '("When" "And"))} I reload the page
+$0

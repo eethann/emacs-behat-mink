@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: given on
+# key: g_on
+# --
+${1:$$(yas/choose-value '("Given" "And"))} I am on "${2:page}"
+$0

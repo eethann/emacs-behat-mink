@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when follow
+# key: w_follow
+# --
+${1:$$(yas/choose-value '("When" "And"))} I follow "${2:link}"
+$0

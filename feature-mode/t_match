@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then match
+# key: t_match
+# --
+${1:$$(yas/choose-value '("Then" "And"))} I should see text matching ${2:pattern}"
+$0

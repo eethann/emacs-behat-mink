@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when go
+# key: w_go
+# --
+${1:$$(yas/choose-value '("When" "And"))} I go to "${2:page}"
+$0

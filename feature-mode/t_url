@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then url match
+# key: t_url
+# --
+${1:$$(yas/choose-value '("Then" "And"))} the url should match "/${2:pattern}/"
+$0

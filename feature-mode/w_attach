@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: when attach
+# key: w_attach
+# --
+${1:$$(yas/choose-value '("When" "And"))} I attach the file "${2:file}" to "${3:field}"
+$0

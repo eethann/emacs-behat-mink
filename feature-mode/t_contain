@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then contain
+# key: t_contain
+# --
+${1:$$(yas/choose-value '("Then" "And"))} the response should contain "${2:text}"
+$0

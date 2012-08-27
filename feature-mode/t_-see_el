@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: then not see an el
+# key: t_-el
+# --
+${1:$$(yas/choose-value '("Then" "And"))} I should not see a "${2:el}" element
+$0
